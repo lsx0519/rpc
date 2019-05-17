@@ -12,6 +12,9 @@
         <module>rpc-common</module>
         <module>rpc-server</module>
         <module>rpc-client</module>
+        <module>app-server</module>
+        <module>app-client</module>
+        <module>app-common</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -30,7 +33,7 @@
         </dependency>
     </dependencies>
     <build>
-        <pluginManagement>
+        <!--<pluginManagement>-->
             <plugins>
                 <!--编译版本设置为1.8-->
                 <plugin>
@@ -43,7 +46,7 @@
                     </configuration>
                 </plugin>
             </plugins>
-        </pluginManagement>
+        <!--</pluginManagement>-->
     </build>
 
 </project>

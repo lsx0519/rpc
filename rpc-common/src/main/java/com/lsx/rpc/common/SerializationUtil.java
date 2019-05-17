@@ -1,4 +1,4 @@
-package rpc.common;
+package com.lsx.rpc.common;
 
 import com.dyuproject.protostuff.LinkedBuffer;
 import com.dyuproject.protostuff.ProtostuffIOUtil;

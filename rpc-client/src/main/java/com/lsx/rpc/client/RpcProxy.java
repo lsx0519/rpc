@@ -1,14 +1,16 @@
 package com.lsx.rpc.client;
 
 import com.lsx.rpc.register.RpcDiscover;
-import rpc.common.RpcRequest;
-import rpc.common.RpcResponse;
+import com.lsx.rpc.common.RpcRequest;
+import com.lsx.rpc.common.RpcResponse;
+import lombok.Data;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.util.UUID;
 
+@Data
 public class RpcProxy {
     private RpcDiscover rpcDiscover;
 
